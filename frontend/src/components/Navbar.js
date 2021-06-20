@@ -23,7 +23,7 @@ const Navbar = ({ isAuthenticated, setAuth, loading }) => {
           ) : (
             <div className="container-fluid bg-light p-0 ">
               <h5 className="list-group-item bg-light text-center m-0">
-                MSTS Assignment
+                User Configuration System
               </h5>
               <a
                 className="list-group-item bg-light text-center"
@@ -43,7 +43,7 @@ const Navbar = ({ isAuthenticated, setAuth, loading }) => {
           ) : (
             <div className="container-fluid bg-light p-0 ">
               <h5 className="list-group-item bg-light text-center m-0">
-                MSTS Assignment
+                User Configuration System
               </h5>
               <NavLink activeStyle={{ color: "black" }} to="/">
                 <a className="list-group-item bg-light text-center">Home</a>
